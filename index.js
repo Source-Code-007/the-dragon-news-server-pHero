@@ -8,7 +8,7 @@ app.use(cors())
 
 // root
 app.get('/', (req, res)=>{
-    res.send('hello world from Bangladesh!')
+    res.send('hello from The Dragon News!!!')
 })
 // category
 app.get('/categories', (req,res)=>{
